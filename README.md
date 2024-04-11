@@ -1,8 +1,8 @@
 # PraticaAzureML
 Trabalhando com Machine Learning na Prática no Azure ML
 
-1 - Entrar no site "https://portal.azure.com/#home"
-2 - Procurar por Azure machine learning
+1 - Entrar no site "https://portal.azure.com/#home"  
+2 - Procurar por Azure machine learning  
 3 - Clicar no botão +create
 4 - Subscription: assinatura gratuita
 5 - resource group: criar novo
