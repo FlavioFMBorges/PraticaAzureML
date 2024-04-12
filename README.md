@@ -1,5 +1,5 @@
 # PraticaAzureML
-Trabalhando com Machine Learning na Prática no Azure ML
+Trabalhando com Machine Learning na Prática no Azure ML - Passo a passo do processo.
 
 1 - Entrar no site "https://portal.azure.com/#home"  
 2 - Procurar por Azure machine learning  
@@ -22,13 +22,15 @@ Trabalhando com Machine Learning na Prática no Azure ML
 19 - Definir o nome e o tipo do ativo de dados - Nome=alugueldebicicletas  
 20 - Descrição = dados históricos de aluguel de bicicletas  
 21 - Tipo=Tabular, botão Avançar  
-22 - Fontes de dados de arquivos da web, Avançar  
-23 - URL da Web= https://aka.ms/bike-rentals, avançar  
-24 - Cabeçalhos de coluna= somente o primeiro arquivo tem cabeçalhos. Esperar o carregamento dos dados. Avançar.  
-25 - Esquema deixar como está. Avançar.  
-26 - Examinar esquema. Criar. Aguardar. Avançar.  
+22 - Fontes de dados de arquivos da web, botão Avançar  
+23 - URL da Web= https://aka.ms/bike-rentals, botão Avançar  
+24 - Cabeçalhos de coluna= somente o primeiro arquivo tem cabeçalhos. Esperar o carregamento dos dados, botão Avançar.  
+25 - Esquema deixar como está, botão Avançar.  
+26 - Examinar esquema. Criar. Aguardar, botão Avançar.  
 27 - Configuração de tarefas, coluna de destino(rentals(integer)).  
 28 - Configuração adicional= desmarcar todos. Modelos permitidos=Random Forest e Light GBM.  
 29 - Limites: Máximo de avaliações=3. Máximo de avaliações simultâneas=3. Máximo de nós=3. Limite de pontuação da métrica=0.085(se atingir esse valor ou menos ele termina). Tempo limite do experimento (minutos)=15. Tempo limite de iteração (minutos)=15. Habilitar encerramento antecipado. Tipo de validação=Divisaão de validação de treinamento. Avançar.  
-30 - Computação. Avanço.  
+30 - Computação. botão Avançar.  
 31 - Enviar trabalho de treinamento. Aguardar início e o término.  
+32 - Botão pontos de extremidade do lado esquerdo, botão Criar, selecionar o modelo, contagem de instâncias=1, botão Implantar.  
+33 - Aba testar. botão Testar.  
